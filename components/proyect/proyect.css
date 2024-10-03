@@ -1,0 +1,20 @@
+.section-proyectos{
+    padding: 0.5rem;
+    height: 100%;
+    max-height: 6rem;
+gap: 10px;
+}
+.div-item{
+   border: 1px solid black;
+    display: flex;
+    padding: 1em;
+
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.link-githuh{
+    text-decoration: dotted;
+}
+.btngithub{
+    background-color: black;
+}

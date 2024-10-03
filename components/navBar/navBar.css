@@ -1,0 +1,43 @@
+.nav-bar{
+    height: 100vh;
+    border-right: 1px solid black;
+}
+
+
+
+
+
+.nav-bar div {
+gap: 30px 0;
+    border-left: 1px solid gray;
+   
+    grid-template-columns: 5rem auto;
+    align-items: center;
+    
+}
+
+.nav-bar div .img-logo {
+    width: 4rem;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+}
+.herramienta-div{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 10px;
+}
+.color-block{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.herramientanombre{
+    font-size: 18px;
+    margin: 0;
+}
