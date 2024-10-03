@@ -1,0 +1,44 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+}
+.herramienta-div{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 10px;
+}
+.color-block{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.herramientanombre{
+    font-size: 18px;
+    margin: 0;
+}
+.contendorform{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+}
+.div1{
+    width: 100px;
+    border: 1px solid black;
+}
+.div2{
+    width: 100px;
+    border: 1px solid black;
+}
+.comentario{
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+}
+.btn{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
